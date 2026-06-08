@@ -16,9 +16,10 @@
 ## 📚 Learning Path
 
 ### LangChain
-- [ ] Models & Prompts
-- [ ] Chains
-- [ ] Output Parsers
+
+- [x] Models & Prompts
+- [x] Chains
+- [x] Output Parsers
 - [ ] Memory
 - [ ] Tools
 - [ ] Agents
@@ -39,9 +40,8 @@
 ```bash
 .
 ├── langchain/
-├── langgraph/
-├── projects/
-└── resources/
+├── langgraph/ 
+└── project/
 ```
 
 ---
