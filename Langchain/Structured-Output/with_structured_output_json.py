@@ -1,7 +1,6 @@
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
-from typing import Optional  , Literal #litral for just to get desired output and optional is for just if optional
-from pydantic import BaseModel , Field
+
 load_dotenv()
 
 model = ChatGoogleGenerativeAI(model='gemini-2.5-flash-lite')
