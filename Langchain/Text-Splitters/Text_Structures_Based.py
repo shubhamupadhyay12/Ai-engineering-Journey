@@ -1,0 +1,12 @@
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
+text = """Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque mollitia rem voluptatibus, nihil ut tempore, in quas beatae consequuntur obcaecati dignissimos cumque. Cupiditate veritatis incidunt at enim molestiae quae numquam itaque, omnis hic amet perspiciatis totam quasi non mollitia unde, atque facilis aliquid quia rem ea assumenda repudiandae minus. Quisquam, quam itaque nesciunt repudiandae dolor aperiam facilis sunt omnis maxime neque, eaque alias delectus eum tenetur quae optio vero saepe voluptas sequi libero ex iste quidem! Impedit, nemo explicabo dolorum incidunt dolor pariatur tempore, ea cumque alias eos, quod tenetur molestias nostrum est quasi facere? Incidunt molestiae inventore, blanditiis et nesciunt dolorem! Commodi, dignissimos architecto debitis et consequatur amet culpa cumque vero laborum accusantium error ad? Obcaecati facilis neque possimus impedit cum ea ipsum, a repudiandae dolorum laboriosam quam temporibus corrupti ullam voluptas quibusdam labore facere in necessitatibus! Repellat incidunt enim dolores! Consequatur pariatur voluptates commodi vel atque ipsa excepturi eveniet? Nemo similique corrupti dolores voluptatem ad esse atque minus impedit eaque eum, sit sequi vero amet accusantium! Soluta distinctio doloribus rem aperiam. In natus perspiciatis deleniti beatae magni facilis nam reprehenderit at. Officia pariatur, porro animi architecto rerum exercitationem sint quaerat dignissimos nobis dolores hic minima consequatur ea! Doloribus ipsum voluptas, corrupti fuga error illo reprehenderit nulla ad amet, commodi consectetur assumenda quaerat. Laboriosam enim quibusdam culpa esse sed. Doloremque obcaecati fugit maiores excepturi perferendis cupiditate ullam soluta aspernatur quia, tenetur quae consequatur totam sed inventore vel dignissimos iure accusamus. Iste omnis distinctio maiores ducimus! Cumque non ad ducimus mollitia saepe asperiores maxime architecto officia consequuntur maiores minima ut ab est sapiente et rerum aspernatur, quod nesciunt, ullam corporis dicta! Magni facere totam recusandae? Natus maxime vitae ut aspernatur, consectetur magni modi. Illum quos, autem sit aliquid sapiente sed commodi. Nulla, quis! Eum tempore iusto unde culpa minima consequuntur."""
+
+splitter = RecursiveCharacterTextSplitter(
+    chunk_size=100,
+    chunk_overlap=0
+)
+
+chunk = splitter.split_text(text)
+print(len(chunk))
+print(chunk)
