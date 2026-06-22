@@ -56,9 +56,9 @@ Currently following the CampusX LangChain & LangGraph course and implementing ev
 
 | Topic | Status |
 |--------|--------|
-| LangChain Basics | 🚀 In Progress |
-| Agents | ⏳ |
-| RAG | ⏳ |
+| LangChain Basics | Done |
+| Agents | Done |
+| RAG | Done |
 | LangGraph | ⏳ |
 | Projects | ⏳ |
 
