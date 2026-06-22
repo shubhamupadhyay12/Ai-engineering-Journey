@@ -20,10 +20,10 @@
 - [x] Models & Prompts
 - [x] Chains
 - [x] Output Parsers
-- [ ] Memory
-- [ ] Tools
-- [ ] Agents
-- [ ] RAG Applications
+- [x] Memory
+- [x] Tools
+- [x] Agents
+- [x] RAG Applications
 
 ### LangGraph
 - [ ] Graph Fundamentals
