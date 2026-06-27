@@ -1,4 +1,4 @@
-# 🔗 LangChain & LangGraph Journey
+# 🔗 LangChain Journey
 
 > Documenting my journey of learning LangChain and LangGraph through notes, experiments, mini-projects, and hands-on implementations.
 
@@ -25,13 +25,7 @@
 - [x] Agents
 - [x] RAG Applications
 
-### LangGraph
-- [ ] Graph Fundamentals
-- [ ] Nodes & Edges
-- [ ] State Management
-- [ ] Conditional Routing
-- [ ] Multi-Agent Workflows
-- [ ] Human-in-the-Loop Systems
+
 
 ---
 
@@ -39,16 +33,14 @@
 
 ```bash
 .
-├── langchain/
-├── langgraph/ 
+├── langchain/ 
 └── project/
 ```
 
 ---
 
 ## 🚀 Current Status
-
-Currently following the CampusX LangChain & LangGraph course and implementing everything from scratch.
+LangChain course and implementing everything from scratch.
 
 ---
 
@@ -59,8 +51,7 @@ Currently following the CampusX LangChain & LangGraph course and implementing ev
 | LangChain Basics | Done |
 | Agents | Done |
 | RAG | Done |
-| LangGraph | ⏳ |
-| Projects | ⏳ |
+
 
 ---
 
